@@ -1,0 +1,92 @@
+colorSpaceName: sRGB
+name: FauXcode
+semanticClass: theme.light.ice_world_dark
+settings:
+- settings: {activeGuide: '#F3DEC3', background: '#FFFFFF', bracketContentsForeground: '#F8F8F2A5',
+    bracketContentsOptions: underline, bracketsForeground: '#F8F8F2A5', bracketsOptions: underline,
+    caret: '#686868', findHighlight: '#F3DEC3', findHighlightForeground: '#E6E6E6',
+    foreground: '#000000', gutterForeground: '#C8C8C8', invisibles: '#686868', lineHighlight: '#E6E6E6',
+    selection: '#E6E6E6', selectionBorder: '#E6E6E6', tagsOptions: stippled_underline}
+- name: Comment
+  scope: comment
+  settings: {foreground: '#356F00'}
+- name: String
+  scope: string
+  settings: {foreground: '#C42A24'}
+- name: Number
+  scope: constant.numeric
+  settings: {foreground: '#2233D2'}
+- name: Built-in constant
+  scope: constant.language
+  settings: {fontStyle: italic, foreground: '#AA3495'}
+- name: User-defined constant
+  scope: constant.character, constant.other
+  settings: {foreground: '#C42A24'}
+- name: Variable
+  scope: variable
+  settings: {fontStyle: ''}
+- name: Keyword
+  scope: keyword
+  settings: {foreground: '#AA3495'}
+- name: Storage
+  scope: storage
+  settings: {fontStyle: '', foreground: '#356F00'}
+- name: Storage type
+  scope: storage.type
+  settings: {fontStyle: italic, foreground: '#6436A0'}
+- name: Class name
+  scope: entity.name.class
+  settings: {fontStyle: underline, foreground: '#356F00'}
+- name: Inherited class
+  scope: entity.other.inherited-class
+  settings: {fontStyle: italic underline, foreground: '#356F00'}
+- name: Function name
+  scope: entity.name.function
+  settings: {fontStyle: '', foreground: '#356F00'}
+- name: Function argument
+  scope: variable.parameter
+  settings: {fontStyle: italic, foreground: '#3874A3'}
+- name: Tag name
+  scope: entity.name.tag
+  settings: {fontStyle: '', foreground: '#3874A3'}
+- name: Tag attribute
+  scope: entity.other.attribute-name
+  settings: {fontStyle: '', foreground: '#356F00'}
+- name: Library function
+  scope: support.function
+  settings: {fontStyle: italic, foreground: '#C42A24'}
+- name: Library constant
+  scope: support.constant
+  settings: {fontStyle: '', foreground: '#AA3495'}
+- name: Library class/type
+  scope: support.type, support.class
+  settings: {fontStyle: italic, foreground: '#3874A3'}
+- name: Library variable
+  scope: support.other.variable
+  settings: {fontStyle: ''}
+- name: Invalid
+  scope: invalid
+  settings: {background: '#3874A3', fontStyle: '', foreground: '#F8F8F0'}
+- name: Invalid deprecated
+  scope: invalid.deprecated
+  settings: {background: '#356F00', foreground: '#F8F8F0'}
+- name: JSON String
+  scope: meta.structure.dictionary.json string.quoted.double.json
+  settings: {foreground: '#007CAA'}
+- name: diff.header
+  scope: meta.diff, meta.diff.header
+  settings: {foreground: '#000000'}
+- name: diff.deleted
+  scope: markup.deleted
+  settings: {foreground: '#3874A3'}
+- name: diff.inserted
+  scope: markup.inserted
+  settings: {foreground: '#356F00'}
+- name: diff.changed
+  scope: markup.changed
+  settings: {foreground: '#F3DEC3'}
+- scope: constant.numeric.line-number.find-in-files - match
+  settings: {foreground: '#8FBE00A0'}
+- scope: entity.name.filename.find-in-files
+  settings: {foreground: '#E6DB74'}
+uuid: 50D00772-2D72-4A57-9CC8-FE55E2A56FAC
