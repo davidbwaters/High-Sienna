@@ -10,7 +10,7 @@ The color scheme in the first shot is 'Dawn'.  The last two use FauXcode, an inc
 
 ## Note
 
-This is my tweaked version of the [Sienna](https://github.com/johansatge/sienna) theme by [johansatge](https://github.com/johansatge).  All credits for the amazing base goes to him. I have added subtle tweaks and adjustments to colors, icons, padding, text, etc to (even more) closely match the latest version of OS X. 
+This is my tweaked version of the [Sienna](https://github.com/johansatge/sienna) theme by [johansatge](https://github.com/johansatge).  All credit for the amazing base goes to him. I have added subtle tweaks and adjustments to colors, icons, padding, text, etc to (even more) closely match the latest version of OS X. 
 
 Please report any issues you may have and I will work to resolve them.  Assets for retina are included, but I haven't tested it, so icons might look a little wonky. If so, let me know in an issue and I can adjust things.
 
