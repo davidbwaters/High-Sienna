@@ -26,9 +26,9 @@ Please report any issues you may have and I will work to resolve them.  Assets f
 ### Install manually
 
 * [Download](https://github.com/johansatge/sienna/archive/master.zip) the latest version of the project
-* Unzip it and rename the directory to `Theme - High-Sienna`
+* Unzip it and rename the directory to `High-Sienna`
 * Open your packages directory (`Sublime Text` → `Preferences` → `Browse Packages...`)
-* Move the `Theme - High-Sienna` directory there
+* Move the `High-Sienna` directory there
 
 ## Activation
 
